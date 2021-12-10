@@ -60,11 +60,10 @@ description:
        - screenshoots/9_configurazione_schede.png
        - screenshoots/10_caricamento_configurazioni.png
 legal:
-  authorsFile: Copyrights.txt
   license: EUPL-1.2
   mainCopyrightOwner: Regione Piemonte
   repoOwner: Regione Piemonte
-  authorsFile: AUTHORS
+  authorsFile: Copyrights.txt
 maintenance:
   type: "internal"
   contacts: 
