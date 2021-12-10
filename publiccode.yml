@@ -1,0 +1,109 @@
+publiccodeYmlVersion: "0.2" # Mandatory
+
+name: Airstation # Mandatory
+applicationSuite: AirStation
+url: "https://github.com/orgs/regione-piemonte/teams/airstation" # Mandatory
+softwareVersion: "4.1.0" # Mandatory
+releaseDate: "2021-12-10" # Mandatory
+
+inputTypes:
+  - text/plain
+outputTypes:
+  - text/plain
+  - multipart/form-data
+
+platforms: # Mandatory
+  - linux
+  - windows
+  - raspberry
+
+categories: # Mandatory
+  - data-collection
+  - data-visualization
+
+usedBy:
+  - ARPA Piemonte
+
+
+developmentStatus: stable # Mandatory
+
+softwareType: "standalone/desktop" # Mandatory
+
+intendedAudience:
+  scope:
+    - environment
+  countries:
+    - it
+    
+
+description: # Mandatory
+  it: # Mandatory
+    localisedName: Airstation
+    genericName: Airstation # Mandatory
+    shortDescription: > # Mandatory
+          Prodotto destinato alla gestione delle stazioni 
+          di misura della Rete Regionale di Rilevamento 
+          della Qualità dell'Aria.
+
+    longDescription: > # Mandatory
+          L'applicazione è destinata all'utilizzo continuo e non presidiato 
+          su computer di tipo industriale, con sistema operativo Linux. 
+          Gli utenti dell'applicazione interagiscono con essa occasionalmente, 
+          ovvero quando è necessario effettuare delle operazioni di configurazione 
+          o di controllo; tali operazioni possono essere effettuate, 
+          tramite l'interfaccia utente dell'applicazione, sia in locale che da remoto.
+          Si possono effettuare le operazioni di configurazione di allarmi, analizzatori
+          analogici e seriali (previa predisposizione del driver di comunicazione) e 
+          consultare i dati acquisiti.
+
+    features: # Mandatory
+       - acquisizione dati da strumenti analogici e digitali
+       - configurazione/consultazione strumentazione
+       - consultazione dati
+    screenshots:
+       - screenshoots/1_login.png
+       - screenshoots/2_stato_informatico.png
+       - screenshoots/3_stato_stazione.png
+       - screenshoots/4_stato_analizzatori.png
+       - screenshoots/5_consultazione_dati.png
+       - screenshoots/6_configurazione_stazione.png
+       - screenshoots/7_configurazione_allarmi.png
+       - screenshoots/8_configurazione_analizzatori.png
+       - screenshoots/8_1_configurazione_analizzatori.png
+       - screenshoots/8_2_configurazione_elementi.png
+       - screenshoots/9_configurazione_schede.png
+       - screenshoots/10_caricamento_configurazioni.png
+
+
+legal: # Mandatory
+  license: EUPL-1.2-or-later # Mandatory
+  mainCopyrightOwner: Regione Piemonte
+  repoOwner: Regione Piemonte
+  authorsFile: AUTHORS
+
+maintenance: # Mandatory
+  type: "internal" # Mandatory
+
+  contacts: # Mandatory se type=internal o community
+    - name: Flavio Bianchi
+      email: "flavio.bianchi@csi.it"
+      affiliation: CSI Piemonte
+      phone: ""
+
+localisation: # Mandatory
+  localisationReady: yes # Mandatory
+  availableLanguages: # Mandatory
+    - en
+    - it
+
+it: # Mandatory
+  countryExtensionVersion: "0.2" # Mandatory
+
+  piattaforme:
+    spid: no
+    cie: no
+    anpr: no
+    pagopa: no
+
+  riuso: # Mandatory
+    codiceIPA: r_piemon # Mandatory
