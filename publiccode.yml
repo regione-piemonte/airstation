@@ -1,51 +1,39 @@
-publiccodeYmlVersion: "0.2" # Mandatory
-
-name: Airstation # Mandatory
-applicationSuite: AirStation
-url: "https://github.com/orgs/regione-piemonte/teams/airstation" # Mandatory
-softwareVersion: "4.1.0" # Mandatory
-releaseDate: "2021-12-10" # Mandatory
-
+publiccodeYmlVersion: "0.2"
+name: Airstation
+applicationSuite: 
+url: "https://github.com/orgs/regione-piemonte/teams/airstation"
+softwareVersion: "4.1.0" 
+releaseDate: "2021-12-10"
 inputTypes:
   - text/plain
 outputTypes:
   - text/plain
   - multipart/form-data
-
-platforms: # Mandatory
+platforms:
   - linux
   - windows
   - raspberry
-
-categories: # Mandatory
+categories: 
   - data-collection
   - data-visualization
-
 usedBy:
   - ARPA Piemonte
-
-
-developmentStatus: stable # Mandatory
-
-softwareType: "standalone/desktop" # Mandatory
-
+developmentStatus: stable 
+softwareType: "standalone/desktop" 
 intendedAudience:
   scope:
     - environment
   countries:
     - it
-    
-
-description: # Mandatory
-  it: # Mandatory
+description: 
+  it: 
     localisedName: Airstation
-    genericName: Airstation # Mandatory
-    shortDescription: > # Mandatory
+    genericName: Airstation 
+    shortDescription: > 
           Prodotto destinato alla gestione delle stazioni 
           di misura della Rete Regionale di Rilevamento 
           della Qualità dell'Aria.
-
-    longDescription: > # Mandatory
+    longDescription: > 
           L'applicazione è destinata all'utilizzo continuo e non presidiato 
           su computer di tipo industriale, con sistema operativo Linux. 
           Gli utenti dell'applicazione interagiscono con essa occasionalmente, 
@@ -55,8 +43,7 @@ description: # Mandatory
           Si possono effettuare le operazioni di configurazione di allarmi, analizzatori
           analogici e seriali (previa predisposizione del driver di comunicazione) e 
           consultare i dati acquisiti.
-
-    features: # Mandatory
+    features:
        - acquisizione dati da strumenti analogici e digitali
        - configurazione/consultazione strumentazione
        - consultazione dati
@@ -73,37 +60,29 @@ description: # Mandatory
        - screenshoots/8_2_configurazione_elementi.png
        - screenshoots/9_configurazione_schede.png
        - screenshoots/10_caricamento_configurazioni.png
-
-
-legal: # Mandatory
-  license: EUPL-1.2-or-later # Mandatory
+legal:
+  license: EUPL-1.2
   mainCopyrightOwner: Regione Piemonte
   repoOwner: Regione Piemonte
   authorsFile: AUTHORS
-
-maintenance: # Mandatory
-  type: "internal" # Mandatory
-
-  contacts: # Mandatory se type=internal o community
+maintenance:
+  type: "internal"
+  contacts: 
     - name: Flavio Bianchi
       email: "flavio.bianchi@csi.it"
       affiliation: CSI Piemonte
       phone: ""
-
-localisation: # Mandatory
-  localisationReady: yes # Mandatory
-  availableLanguages: # Mandatory
+localisation:
+  localisationReady: yes
+  availableLanguages:
     - en
     - it
-
-it: # Mandatory
-  countryExtensionVersion: "0.2" # Mandatory
-
+it: 
+  countryExtensionVersion: "0.2"
   piattaforme:
-    spid: no
-    cie: no
-    anpr: no
-    pagopa: no
-
-  riuso: # Mandatory
+    spid: false
+    cie: false
+    anpr: false
+    pagopa: false
+  riuso: 
     codiceIPA: r_piemon # Mandatory
