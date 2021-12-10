@@ -1,7 +1,7 @@
 publiccodeYmlVersion: "0.2"
 name: Airstation
 applicationSuite: 
-url: "https://github.com/orgs/regione-piemonte/teams/airstation"
+url: "https://github.com/regione-piemonte/airstation"
 softwareVersion: "4.1.0" 
 releaseDate: "2021-12-10"
 inputTypes:
@@ -85,4 +85,4 @@ it:
     anpr: false
     pagopa: false
   riuso: 
-    codiceIPA: r_piemon # Mandatory
+    codiceIPA: r_piemon
