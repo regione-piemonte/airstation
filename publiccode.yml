@@ -76,6 +76,7 @@ localisation:
   availableLanguages:
     - en
     - it
+logo: screenshoots/AIRSTATION.png
 it: 
   countryExtensionVersion: "0.2"
   piattaforme:
