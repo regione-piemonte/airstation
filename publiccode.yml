@@ -47,6 +47,7 @@ description:
        - configurazione/consultazione strumentazione
        - consultazione dati
     screenshots:
+       - screenshoots/AIRSTATION.png
        - screenshoots/1_login.png
        - screenshoots/2_stato_informatico.png
        - screenshoots/3_stato_stazione.png
