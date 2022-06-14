@@ -1,6 +1,8 @@
 # Prodotto
 Airstation
 # Descrizione del prodotto
+Questo prodotto fa parte della suite **SRRQA - Rilevamento della Qualità dell'Aria**.
+
 E' un prodotto destinato alla gestione delle stazioni di misura della Rete Regionale di Rilevamento della Qualità dell'Aria, dislocate sul territorio della Regione Piemonte; acquisisce i dati e le informazioni di stato dagli analizzatori delle stazioni di misura e li trasmette al Centro Operativo Provinciale. Pertanto, l'applicazione è destinata all'utilizzo continuo e non presidiato su computer di tipo industriale, con sistema operativo Linux.
 Gli utenti dell'applicazione interagiscono con essa occasionalmente, ovvero quando è necessario effettuare delle operazioni di configurazione o di controllo; tali operazioni possono essere effettuate, tramite l'interfaccia utente dell'applicazione, sia in locale che da remoto. Gli utenti dell'applicazione sono i tecnici di ARPA o delle ditte di manutenzione incaricate da ARPA  che si occupano della rete di monitoraggio.
 

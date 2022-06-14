@@ -1,5 +1,6 @@
 publiccodeYmlVersion: "0.2"
 name: Airstation
+applicationSuite: SRRQA - Rilevamento della Qualità dell'Aria
 url: "https://github.com/regione-piemonte/airstation"
 softwareVersion: "4.1.0" 
 releaseDate: "2021-12-10"
@@ -73,7 +74,7 @@ maintenance:
       affiliation: CSI Piemonte
       phone: ""
 localisation:
-  localisationReady: yes
+  localisationReady: true
   availableLanguages:
     - en
     - it
