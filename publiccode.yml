@@ -48,19 +48,19 @@ description:
        - configurazione/consultazione strumentazione
        - consultazione dati
     screenshots:
-       - screenshoots/AIRSTATION.png
-       - screenshoots/1_login.png
-       - screenshoots/2_stato_informatico.png
-       - screenshoots/3_stato_stazione.png
-       - screenshoots/4_stato_analizzatori.png
-       - screenshoots/5_consultazione_dati.png
-       - screenshoots/6_configurazione_stazione.png
-       - screenshoots/7_configurazione_allarmi.png
-       - screenshoots/8_configurazione_analizzatori.png
-       - screenshoots/8_1_configurazione_analizzatori.png
-       - screenshoots/8_2_configurazione_elementi.png
-       - screenshoots/9_configurazione_schede.png
-       - screenshoots/10_caricamento_configurazioni.png
+       - screenshots/AIRSTATION.png
+       - screenshots/1_login.png
+       - screenshots/2_stato_informatico.png
+       - screenshots/3_stato_stazione.png
+       - screenshots/4_stato_analizzatori.png
+       - screenshots/5_consultazione_dati.png
+       - screenshots/6_configurazione_stazione.png
+       - screenshots/7_configurazione_allarmi.png
+       - screenshots/8_configurazione_analizzatori.png
+       - screenshots/8_1_configurazione_analizzatori.png
+       - screenshots/8_2_configurazione_elementi.png
+       - screenshots/9_configurazione_schede.png
+       - screenshots/10_caricamento_configurazioni.png
 legal:
   license: EUPL-1.2
   mainCopyrightOwner: Regione Piemonte
